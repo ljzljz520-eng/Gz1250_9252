@@ -49,7 +49,7 @@ func (s *Service) Create(ctx context.Context, input CreateInput) (Person, error)
 	created, err := s.repo.Create(ctx, person)
 	if err != nil {
 		if errors.Is(err, ErrContactConflict) {
-			return Person{}, fmt.Errorf("create person failed: %s", err)
+			return Person{}, fmt.Errorf("create person failed: %w", err)
 		}
 		return Person{}, fmt.Errorf("create person: %w", err)
 	}
