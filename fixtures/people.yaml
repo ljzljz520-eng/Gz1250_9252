@@ -1,0 +1,21 @@
+people:
+  - name: Lin Xiao
+    phone: "13800000001"
+    email: photographer@example.test
+    role: photographer
+    status: active
+  - name: Zhou Lan
+    phone: "13800000002"
+    email: editor@example.test
+    role: photo_editor
+    status: active
+  - name: Ye Ning
+    phone: "13800000003"
+    email: makeup@example.test
+    role: makeup_artist
+    status: active
+  - name: He An
+    phone: "13800000004"
+    email: service@example.test
+    role: customer_service
+    status: inactive
